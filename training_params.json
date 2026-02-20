@@ -1,0 +1,11 @@
+{
+    "repeats": 5,
+    "epochs": 13,
+    "batch_size": 1,
+    "unet_learning_rate": 0.0001,
+    "text_encoder_learning_rate": 0.00001,
+    "resolution": 1024,
+    "scheduler": "COSINE",
+    "lora_rank": 32,
+    "lora_alpha": 16.0
+}
