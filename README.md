@@ -124,7 +124,7 @@ technekey D:\OneTrainer> .\image_trainer.ps1 -InputImagesDir "D:\john_photos\" -
    -> Targets: 5 Repeats | 13 Epochs | Batch Size 1
    -> Network: Rank 32 | Alpha 16
    -> LR: UNet (0.0001) | Text Encoders (1E-05)
- [System] Workspace created at: D:\AUDIO-WEBUI\OneTrainer\Workspaces\johnFace
+ [System] Workspace created at: D:\OneTrainer\Workspaces\johnFace
  [Data] Locally Resizing and Prepping Images...
    + Processed: 20250526_194625.jpg -> 768x1024
    + Processed: 20250719_174539.jpg -> 1024x768
@@ -169,8 +169,8 @@ technekey D:\OneTrainer> .\image_trainer.ps1 -InputImagesDir "D:\john_photos\" -
  [Action] Starting OneTrainer...
 --------------------------------------------------------
 Could not set optimizer as ADAMW8BIT
-Clearing cache directory D:\AUDIO-WEBUI\OneTrainer\Workspaces\johnFace\cache! You can disable this if you want to continue using the same cache.
-D:\AUDIO-WEBUI\OneTrainer\venv\Lib\site-packages\tensorboard\default.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+Clearing cache directory D:\OneTrainer\Workspaces\johnFace\cache! You can disable this if you want to continue using the same cache.
+D:\OneTrainer\venv\Lib\site-packages\tensorboard\default.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
   import pkg_resources
 Fetching 17 files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:00<00:00, 266056.60it/s]
 Loading pipeline components...:  57%|███████████████████████████████████████████████████████████████▍                                               | 4/7 [00:00<00:00,  4.42it/s]TensorFlow installation not found - running with reduced feature set.
@@ -196,8 +196,8 @@ step: 100%|███████████████████████
 step: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 39/39 [01:18<00:00,  2.02s/it, loss=0.055, smooth loss=0.142]
 step: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 39/39 [01:05<00:00,  1.69s/it, loss=0.179, smooth loss=0.14]
 epoch: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [16:20<00:00, 75.42s/it]
-Creating Backup D:\AUDIO-WEBUI\OneTrainer\Workspaces\johnFace\backup\2026-02-20_12-27-42-backup-507-13-0
-Saving D:\AUDIO-WEBUI\OneTrainer\Workspaces\johnFace\output\johnFace.safetensors
+Creating Backup D:\OneTrainer\Workspaces\johnFace\backup\2026-02-20_12-27-42-backup-507-13-0
+Saving D:\OneTrainer\Workspaces\johnFace\output\johnFace.safetensors
 --------------------------------------------------------
  [Success] Training Complete!
  LoRA saved to: D:\OneTrainer\Workspaces\johnFace\output\johnFace.safetensors
